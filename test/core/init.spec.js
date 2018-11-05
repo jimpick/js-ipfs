@@ -112,18 +112,6 @@ describe('init', () => {
     })
   })
 
-  it('data types', () => {
-    expect(ipfs.types).to.be.deep.equal({
-      Buffer: Buffer,
-      PeerId: PeerId,
-      PeerInfo: PeerInfo,
-      multiaddr: multiaddr,
-      multibase: multibase,
-      multihash: multihash,
-      CID: CID
-    })
-  })
-
   it('util', () => {
     expect(ipfs.util).to.be.deep.equal({
       crypto: crypto,
