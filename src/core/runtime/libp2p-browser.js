@@ -6,7 +6,7 @@ const WebSocketStar = require('libp2p-websocket-star')
 const Multiplex = require('libp2p-mplex')
 const SECIO = require('libp2p-secio')
 const Bootstrap = require('libp2p-bootstrap')
-const libp2p = require('libp2p')
+const libp2p = require('@jimpick/libp2p')
 const defaultsDeep = require('@nodeutils/defaults-deep')
 
 class Node extends libp2p {
